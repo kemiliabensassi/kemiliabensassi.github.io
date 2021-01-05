@@ -1,0 +1,159 @@
+/*FEUILLE DE STYLE PAGE D'ACCUEIL ET RECHERCHE*/
+/*responsive*/
+@media(max-width: 700px)
+{
+	.menu2 div{
+		margin:0.2em;
+	}
+	.produits_recherche a
+	{margin:0 0 2em 0;}
+}
+
+/*message du jour*/
+.noel
+{
+	width:100%;
+	height:35em;
+}
+
+/*menu secondaire*/
+
+.menu2
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	margin:1.2em;
+}
+
+
+.menu2 div
+{
+	border:solid grey;
+	border-radius: 15px;
+	width:49%;
+	height:17em;
+	background-color:lightgrey;
+	font-weight:bold;
+	box-shadow: 5px 5px 5px lightgrey;
+}
+
+nav img
+{
+	display:box;
+	width:100%;
+	height:14em;
+	border-radius:15px 15px 0 0;
+}
+
+/*Section populaire en ce moment*/
+
+h1
+{
+	text-align:center;
+}
+
+section a
+{
+	display:block;
+	height:19em;
+	text-align:center;
+}
+
+.produits
+{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	margin:0.5em;
+}
+.produits div
+{
+	width:22%;
+	border:0.2em solid lightgrey;
+	border-radius:15px;
+	box-shadow: 5px 5px 5px lightgrey;
+}
+
+.populaires img
+{
+	width:100%;
+	height:14em;
+	border-radius:15px 15px 0 0;
+}
+
+/*page recherche*/
+
+.menu2 a
+{	display:block;
+	height:17em;
+	text-align:center;
+}
+
+.produits_recherche
+{
+	border-top:solid 0.3em #FB796E;
+}
+
+.titre_produits
+{	display:inline;
+	border-bottom:solid 0.2em #605A59;
+}
+
+.produits_ligne1
+{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	margin:1.2em;
+}
+
+.produits_ligne2
+{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	margin:1.2em;
+}
+
+.produits_ligne1 div
+{
+	width:22%;
+	border:0.2em solid lightgrey;
+	border-radius:15px;
+	box-shadow: 5px 5px 5px lightgrey;
+	text-align:center;
+}
+
+.produits_ligne2 div
+{
+	text-align:center;
+	width:22%;
+	border:0.2em solid lightgrey;
+	border-radius:15px;
+	box-shadow: 5px 5px 5px lightgrey;
+}
+
+.produits_recherche a 
+{
+	height:15.7em;
+}
+
+.barre_recherche input::placeholder
+{
+	color:black;
+	font-weight:bold;
+}
+
+.resultats h1
+{
+	text-align:left;
+	font-size:1em;
+	font-weight:normal;
+	font-style:italic;
+}
+
+.checked {
+  color: orange;
+}
+
