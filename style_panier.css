@@ -1,0 +1,151 @@
+/*responsive*/
+@media(max-width: 700px)
+{
+	 .panier .logo_panier_vide
+	 {
+	 	width:40%;
+	 }
+
+	 .panier .image_nuoc
+	 {
+	 	width:100%;
+	 }
+
+	 .paiement .bouton_paiement
+	 {
+	 	margin:0 0 0 2em;
+	 }
+
+	 .panier input[type=submit]
+	 {
+	 	display:block;
+	 	margin:auto;
+	 }
+
+	 .panier h2, .panier p
+	 {
+	 	text-align:center;
+	 }
+}
+
+
+
+/*general*/
+.panier
+{
+	border:1em double #605A59;
+	margin:3em 4em 4em 4em;
+	box-shadow:5px 5px 5px lightgrey;
+	
+}
+
+/*page panier vide*/
+.logo_panier_vide
+{
+	display:block;
+	width:30%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:2em;
+	margin-bottom:2em; /*new*/
+}
+
+.panier .caché
+{
+	display:none;
+}
+
+/*page panier rempli*/
+/*partie description panier*/
+.panier h1
+{
+	border-bottom:solid #605A59;
+	background-color:#FB796E;
+	text-align:center;
+	margin:0;
+}
+
+.image_nuoc
+{
+	margin:2em 2em 4em 2em;
+	border: 0.2em solid white;
+	box-shadow:5px 5px 5px grey;
+	float:left;
+}
+
+input[type=submit]
+{
+	font-size:1em;
+	margin:0.7em 0 0.7em 0;
+}
+
+.panier form
+{
+	display:inline;
+}
+
+/*partie paiement*/
+
+.paiement
+{
+	clear:both;
+}
+
+legend
+{
+	font-size:1.3em;
+	font-weight:bold;
+}
+
+fieldset
+{	
+	border:1em double #605A59;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:5em;
+	box-shadow:5px 5px 5px lightgrey;
+
+}
+
+select,option
+{
+	font-family:Gill Sans;
+}
+
+h3
+{
+	font-size:1.3em;
+	font-weight:bold;
+}
+
+h4
+{
+	font-size:1.2em;
+	border-top: solid #FB796E;
+	padding:0.5em 0 0 0;
+}
+
+.total
+{
+	font-size:1.3em;
+	font-weight:bold;
+	border-bottom:solid #FB796E;
+	padding: 0 0 0.5em 0;
+}
+
+
+.paiement input[type=submit]
+{
+	display:block;
+	margin:auto;
+}
+
+.paiement form
+{	display:inline;
+}
+
+select
+{
+	font-size:1.2em;
+}

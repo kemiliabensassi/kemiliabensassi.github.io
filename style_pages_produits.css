@@ -1,0 +1,130 @@
+/*responsive*/
+@media(max-width: 1070px)
+{
+	.sauce img{display:none;}
+	.forme{margin:2em;}
+	.sauce .selection{margin-left:auto;margin-right:auto;}
+}
+
+@media(max-width: 700px)
+{
+	.bouton input[type=submit]{margin:width:9%; margin:1em 0 2em 3em;}
+}
+
+/*partie selection quantite*/
+
+.sauce img
+{
+	float:left;
+	border-radius:10px;
+	border:solid black;
+	box-shadow:5px 5px 5px lightgrey;
+	margin:0 3em 4em 10em;
+}
+
+.bouton
+{
+	width:100%;
+}
+
+.selection
+{
+	width:30%;
+	display:flex;
+	flex-direction:column;
+	border:0.1em solid lightgrey;
+	border-radius:30px;
+	margin:0.5em 0 0 0;
+	box-shadow:2px 2px 2px lightgrey;
+}
+
+.sauce p
+{
+	margin:0.2em 0.2em 0.2em 0.4em;
+}
+
+.sauce h1
+{
+	margin:0 0.2em 0.4em 0.4em;
+	text-align:center;
+	border-bottom:solid #FB796E;
+}
+
+form
+{
+	display:flex;
+	flex-direction:column;
+}
+
+input[type=submit]
+{
+	width:50%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:2em;
+	margin-bottom:0.5em;
+}
+
+.checked {
+  color: orange;
+}
+
+/*partie description*/
+
+.description
+{
+	clear:both;
+	border:1em double #605A59;
+	width:90%;
+	box-shadow:5px 5px 5px lightgrey;
+	margin:auto;
+}
+.description h2
+{
+	border-bottom:solid #605A59;
+	text-align:center;
+	background-color:#FB796E;
+	margin:0;
+}
+.description p
+{
+	padding:1.5em 0.8em 1.5em 0.8em;
+	text-align:justify;
+}
+
+/*partie avis*/
+.avis
+{
+	border:1em double #605A59;
+	width:90%;
+	margin-left:auto; /*new*/
+	margin-right:auto;
+	margin-top:5em;
+	margin-bottom:5em;
+	box-shadow:5px 5px 5px lightgrey;
+}
+
+.avis h2
+{
+	text-align:center;
+	border-bottom:solid #605A59;
+	background-color:#FB796E;
+	margin:0;
+}
+
+.avis div
+{
+	padding:0.2em 0.8em 0.2em 0.8em;
+}
+
+.avis2 
+{
+	margin:3em 0 0 0;
+}
+
+
+p[class]
+{
+	font-weight:bold;
+}
